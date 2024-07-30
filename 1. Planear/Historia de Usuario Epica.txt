@@ -1,0 +1,35 @@
+Historia de usuario epica urbanos
+
+Rquerimiento:
+Una empresa de bienes raíces necesita un sistema de información que le permita gestionar eficientemente la venta de 
+propiedades a sus clientes, ya que la empresa tiene dificultades para gestionar de forma eficiente las ventas de 
+propiedades porque se hace de manera manual. El sistema debe proporcionar información actualizada sobre la 
+disponibilidad de propiedades y garantizar que esta información esté actualizada.
+
+Los actores que se involucran en el proceso de venta de propiedades son:
+Clientes: Personas interesadas en comprar propiedades.
+Agentes de Bienes Raíces: Profesionales que gestionan la venta de propiedades y atienden a los clientes.
+
+
+
+1. nombre: urbanos.
+
+2. proceso: venta de propiedades.
+
+3. actores: clientes y agente de bienes raices.
+
+4. producto/servicio: producto.
+
+5. Escenario Actual: La empresa tiene dificultades para gestionar las ventas de propiedades de forma eficiente porque
+se hace de manera manual.
+
+6. Escenario Objetivo: Contar con un sistema que permita gestionar las ventas de propiedades de forma eficiente, 
+proporcionando información actualizada y garantizando que esta información esté siempre al día.
+
+7. Problemática: La gestión de venta de propiedades se hace de manera manual, lo que resulta ineficiente y complicado.
+ya que genera mucho tiempo de espera en la atencion al cliente y errores de venta.
+
+(masificacion de las propiedades, identificar la informacion de los clientes,errores de venta)
+
+8. Solución: Implementar un sistema de información que permita gestionar eficientemente la venta de propiedades,
+proporcionando información actualizada sobre la disponibilidad de estas.
