@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Página-1" id="-gCFc09wYBWEyNJwtDoZ">
+    <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-1" value="Flujo de ventas de propiedades - Objetivo" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="660" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-2" value="Cliente" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=1;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-1">
+          <mxGeometry y="40" width="660" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-3" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=1;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-2">
+          <mxGeometry x="40" width="206" height="150" as="geometry">
+            <mxRectangle width="206" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-3">
+          <mxGeometry x="10" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-5" value="Solicita propiedades" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-3">
+          <mxGeometry x="10" y="110" width="100" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-3" source="CMpanyRTawQVMF2I2-WZ-4" target="CMpanyRTawQVMF2I2-WZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-7" value="Estado Intermedio" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=1;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-2">
+          <mxGeometry x="246" width="208" height="150" as="geometry">
+            <mxRectangle width="208" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-8" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Seleccionar opcion&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-7">
+          <mxGeometry x="4" y="66.5" width="86" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-9" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-7">
+          <mxGeometry x="124" y="59.75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-7" source="CMpanyRTawQVMF2I2-WZ-8" target="CMpanyRTawQVMF2I2-WZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-11" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Compra&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-7">
+          <mxGeometry x="119" y="36.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-12" value="Estado Final" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=1;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-2">
+          <mxGeometry x="454" width="206" height="150" as="geometry">
+            <mxRectangle width="206" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-13" value="Aceptar" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-12">
+          <mxGeometry x="6" y="80" width="100" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-14" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-12">
+          <mxGeometry x="146" y="81.75" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-12" source="CMpanyRTawQVMF2I2-WZ-13" target="CMpanyRTawQVMF2I2-WZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-16" value="Sistema" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=1;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-1">
+          <mxGeometry y="190" width="660" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-17" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=1;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-16">
+          <mxGeometry x="40" width="206" height="150" as="geometry">
+            <mxRectangle width="206" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-17" source="CMpanyRTawQVMF2I2-WZ-19" target="CMpanyRTawQVMF2I2-WZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-19" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Verifica disponibilidad&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-17">
+          <mxGeometry x="10" y="30" width="100" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-20" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-17">
+          <mxGeometry x="140" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-21" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Disponible&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-17">
+          <mxGeometry x="135" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-22" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=1;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-16">
+          <mxGeometry x="246" width="208" height="150" as="geometry">
+            <mxRectangle width="208" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-23" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Informar opciones&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-22">
+          <mxGeometry x="4" y="76.75" width="86" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-24" value="Ingresa compra" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-22">
+          <mxGeometry x="106" y="76.75" width="86" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-25" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=1;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-16">
+          <mxGeometry x="454" width="206" height="150" as="geometry">
+            <mxRectangle width="206" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-26" value="Notificar" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-25">
+          <mxGeometry x="6" y="76.75" width="100" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-27" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=general;" vertex="1" parent="CMpanyRTawQVMF2I2-WZ-25">
+          <mxGeometry x="146" y="78.5" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-25" source="CMpanyRTawQVMF2I2-WZ-26" target="CMpanyRTawQVMF2I2-WZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-16" source="CMpanyRTawQVMF2I2-WZ-20" target="CMpanyRTawQVMF2I2-WZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-16" source="CMpanyRTawQVMF2I2-WZ-24" target="CMpanyRTawQVMF2I2-WZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-1" source="CMpanyRTawQVMF2I2-WZ-5" target="CMpanyRTawQVMF2I2-WZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-1" source="CMpanyRTawQVMF2I2-WZ-23" target="CMpanyRTawQVMF2I2-WZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-1" source="CMpanyRTawQVMF2I2-WZ-9" target="CMpanyRTawQVMF2I2-WZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMpanyRTawQVMF2I2-WZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CMpanyRTawQVMF2I2-WZ-1" source="CMpanyRTawQVMF2I2-WZ-26" target="CMpanyRTawQVMF2I2-WZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
