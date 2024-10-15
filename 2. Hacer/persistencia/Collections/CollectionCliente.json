@@ -1,0 +1,20 @@
+[
+    {
+        "Email": "juan@example.com",
+        "Genero": "Masculino",
+        "Nombre": "Juan Valdez",
+        "Telefono": "555-9999",
+        "IdCliente": "83056e6f-5586-41a3-a28a-f1441acba36e",
+        "TipoDocumento": "Cédula de Ciudadanía",
+        "NumeroDocumento": "1234567890"
+    },
+    {
+        "Email": "maria@example.com",
+        "Genero": "Femenino",
+        "Nombre": "Maria Lopez",
+        "Telefono": "555-8888",
+        "IdCliente": "180d75ae-ad4b-49eb-8195-7ddf7d08b393",
+        "TipoDocumento": "Pasaporte",
+        "NumeroDocumento": "A1234567"
+    }
+]

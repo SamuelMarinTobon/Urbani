@@ -1,0 +1,14 @@
+[
+    {
+        "Precio": "200000",
+        "IdPropiedad": "69e818c4-59b4-40c6-b1b6-72f7f3e97035",
+        "TipoPropiedad": "Apartamento",
+        "EstadoPropiedad": "Disponible"
+    },
+    {
+        "Precio": "300000",
+        "IdPropiedad": "920d7b2c-165d-4ffb-9888-cfa18fc1d993",
+        "TipoPropiedad": "Casa",
+        "EstadoPropiedad": "Vendida"
+    }
+]

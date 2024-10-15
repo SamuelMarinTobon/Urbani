@@ -1,0 +1,16 @@
+[
+    {
+        "IdEmpleado": "e9ed214e-1b8b-4360-9699-7a16af5f8d47",
+        "SedeNombre": "Sede Principal",
+        "TipoEmpleado": "Gerente",
+        "AgenciaNombre": "Agencia Central",
+        "EmpleadoNombre": "Carlos Pérez"
+    },
+    {
+        "IdEmpleado": "c7837a11-6e18-4c0a-a030-2a8d73cbe974",
+        "SedeNombre": "Sede Secundaria",
+        "TipoEmpleado": "Vendedor",
+        "AgenciaNombre": "Agencia Sur",
+        "EmpleadoNombre": "Ana Gómez"
+    }
+]

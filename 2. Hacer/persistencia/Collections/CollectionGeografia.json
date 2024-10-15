@@ -1,0 +1,18 @@
+[
+    {
+        "IdPais": "beb2ec1b-4220-434c-af4b-cf483d7df51a",
+        "IdCiudad": "b68d13b7-636f-4401-beb8-9e76e632a1c5",
+        "NombrePais": "Colombia",
+        "NombreCiudad": "Medellín",
+        "IdDepartamento": "4e69cee4-f03d-4902-9fcc-7d9ddb236953",
+        "NombreDepartamento": "Antioquia"
+    },
+    {
+        "IdPais": "e69ffd30-bfd7-4823-8e8a-2d7293e4ae68",
+        "IdCiudad": "864c0a0a-a430-491d-907b-bcdd74bc22d9",
+        "NombrePais": "Argentina",
+        "NombreCiudad": "La Plata",
+        "IdDepartamento": "c726b8c3-08ed-4949-affc-4186ff569ee8",
+        "NombreDepartamento": "Buenos Aires"
+    }
+]

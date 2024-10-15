@@ -1,0 +1,16 @@
+[
+    {
+        "IdVenta": "0c484a46-ee25-4380-b22a-ebd97b4a5a62",
+        "Cantidad": "1",
+        "TotalVenta": "200000",
+        "EstadoVenta": "En Proceso",
+        "IdDetalleVenta": "6a443ea9-5586-49d6-af72-2908f1d8e6aa"
+    },
+    {
+        "IdVenta": "47d3427e-0414-4ca8-9581-c612671849e3",
+        "Cantidad": "1",
+        "TotalVenta": "300000",
+        "EstadoVenta": "Completada",
+        "IdDetalleVenta": "c8a9c603-4033-45eb-8ef8-3f3c846e0d98"
+    }
+]
